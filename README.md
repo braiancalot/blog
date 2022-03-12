@@ -2,7 +2,7 @@
 
 ## 🎯 Desafio:
 
-Neste desafio, foi proposto a criação de um blog seguindo design proposto.
+Neste desafio, foi proposto a criação de um blog seguindo um design proposto.
 <br>
 ### Layout disponibilizado:
 <img src="./images/layout.png">
@@ -17,4 +17,4 @@ Neste desafio, foi proposto a criação de um blog seguindo design proposto.
 ## ⚒️ Tecnologias utilizadas:
 * JavaScript
 * HTML
-* CSS 
+* CSS
