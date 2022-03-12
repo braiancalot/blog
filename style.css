@@ -12,6 +12,7 @@
     --date: #000000;
     --body-title: #160742;
     --body-text: #000000;
+    --hover: #a48be9
 
 }
 
@@ -21,26 +22,22 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    transition: 0.3s ease-in;
+    transition: background 0.3s ease-in;
 }
 
 .dark {
-    --green: #836DC2;
-    --white: #FFFFFF;
-    --header-bg: #0d1814;
-    --header-title: #4FFF4B;
-    --header-text: #F8F6FF;
-    --input-bg: #0A0027;
-
+    --green: #4FFF4B;
+    --white: #ffffffc2;
+    --header-bg: #0a160c;
+    --header-title: #2e972c;
+    --header-text: #ffffffc2;
+    --input-bg: #070f09;
     --bg: #1A1A1C;
     --line: #3BBC38;
     --date: #cbffca;
     --body-title: #3BBC38;
     --body-text: #F8F6FF;
-    
-    
-    
-    
+    --hover: #70c26f;
     
 }
 
@@ -88,8 +85,11 @@ nav > a {
 }
 
 .nav-list li:hover{
-    font-weight: 700;
     border-left: 2px solid var(--green);
+    margin-left: -2px;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 
 }
 
@@ -152,7 +152,7 @@ nav > a {
 }
 
 .input-container .search-button:hover{
-    background-color: #a48be9;
+    background-color: var(--hover);
 }
 
 .input-container .search-button:active {
@@ -183,6 +183,7 @@ nav > a {
 
 #checkbox:checked + .label .ball {
     transform: translateX(20px);
+    background-color: #0A0027;
 }
 
 .theme-switcher .ball {
